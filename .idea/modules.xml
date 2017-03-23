@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Leyu.iml" filepath="$PROJECT_DIR$/Leyu.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/leyu.iml" filepath="$PROJECT_DIR$/leyu.iml" />
     </modules>
   </component>
 </project>

@@ -1,4 +1,4 @@
-package com.sx.leyu.common.news;
+package com.sx.leyu.news;
 
 import com.sx.leyu.R;
 import com.sx.leyu.common.ui.BaseFragment;
