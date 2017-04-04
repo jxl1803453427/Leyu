@@ -4,8 +4,6 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.widget.RadioGroup;
-
-import com.sx.leyu.R;
 import com.sx.leyu.common.ui.BaseActivity;
 import com.sx.leyu.news.NewsFragment;
 import com.sx.leyu.joker.JokerFragment;
