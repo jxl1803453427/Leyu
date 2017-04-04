@@ -1,14 +1,13 @@
-package com.sx.leyu.common.ui;
+package com.sx.leyu;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
-import android.widget.FrameLayout;
 import android.widget.RadioGroup;
 
 import com.sx.leyu.R;
-import com.sx.leyu.common.news.NewsFragment;
 import com.sx.leyu.common.ui.BaseActivity;
+import com.sx.leyu.news.NewsFragment;
 import com.sx.leyu.joker.JokerFragment;
 import com.sx.leyu.personal.PersonalFragment;
 
@@ -84,7 +83,6 @@ public class MainActivity extends BaseActivity {
                         transaction.hide(fragments.get(0));
                         transaction.hide(fragments.get(1));
                         transaction.commit();
-
                         break;
 
                 }

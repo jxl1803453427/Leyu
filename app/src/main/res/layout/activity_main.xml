@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".common.ui.MainActivity">
+    tools:context=".MainActivity">
 
     <RadioGroup
         android:id="@+id/main_rg"
@@ -19,14 +19,13 @@
             android:drawableTop="@drawable/bottom_invest_selector"
             android:text="新闻"
             android:id="@+id/rb_news"
-            android:checked="false" />
+            android:checked="true" />
         <RadioButton
             style="@style/main_bottom_rb"
             android:gravity="center"
             android:drawableTop="@drawable/bottom_invest_selector"
             android:text="乐娱"
-            android:id="@+id/rb_joker"
-            android:checked="false" />
+            android:id="@+id/rb_joker" />
         <RadioButton
             style="@style/main_bottom_rb"
             android:gravity="center"
